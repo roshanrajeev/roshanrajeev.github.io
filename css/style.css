@@ -1,0 +1,70 @@
+body{
+    color: #373737;
+    margin: 2.5rem 8% 0 8%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+::selection{
+    background-color: #fdd835;
+}
+a{
+    text-decoration: none;
+    color: #005cb2;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: underline;
+}
+address{
+    font-style: normal;
+}
+h1{
+    margin: 0 0 1.1em 0;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+}
+h2{
+    /* border: 1px solid red; */
+    margin: 0 0 0.625em 0;
+    font-size: 1.1rem;
+}
+p{
+    margin:0 0 0.625em 0;
+    font-size: 1rem;
+    /* border: 1px solid violet; */
+}
+section{
+    /* border: 1px solid black; */
+    margin: 0 0 2em 0;
+}
+footer{
+    position: absolute;
+    width: 84%;
+    margin: 1.5rem 0 2.5em 0 ;
+    bottom: 0;
+    color: #494949;
+    /* border: 1px solid black; */
+}
+footer p{
+    text-align: center;
+    letter-spacing: 0.4rem;
+    font-size: 0.8rem;
+}
+@media (max-width: 425px){
+    footer{
+        position: relative;
+        width: 100%;
+        margin: 1.5rem 0 1em 0 ;
+    }
+}
+
+.skills-span{
+    /* text-decoration:underline; */
+    /* text-underline-position: under; */
+    font-style: italic;
+    /* text-decoration-color: rgb(141, 141, 141); */
+    color: #9b6a00;
+}
